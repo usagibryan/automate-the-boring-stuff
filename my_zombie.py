@@ -1,6 +1,3 @@
-# Zombie Dice Bots project from Ch 6 of Automate the Boring Stuff
-# https://automatetheboringstuff.com/2e/chapter6/
-
 import zombiedice
 
 class MyZombie:
