@@ -10,7 +10,7 @@ I met these requirements:
 * A bot that initially decides it’ll roll the dice one to four times, but will stop early if it rolls two shotguns
 * A bot that stops rolling after it has rolled more shotguns than brains
 
-But was having too much fun decided to experiment and make more bots. I made at least 10 and plan to try more configurations in the future. Other than Alice and Bob they are all named after Walking Dead characters. So far Carl has the best strategy, he rolls until he gets 2 shot guns (unless he has 0 brains then keeps going) and if he has 1 shotgun he keeps going unless he has at least 6 brains. At the moment Lizzie is the only bot that makes decisions based on the color of the dice.
+But I was having too much fun and decided to experiment and make more bots. I made at least 10 and plan to try more configurations in the future. Other than Alice and Bob they are all named after Walking Dead characters. So far Carl has the best strategy, he rolls until he gets 2 shot guns (unless he has 0 brains then keeps going) and if he has 1 shotgun he keeps going unless he has at least 6 brains. At the moment Lizzie is the only bot that makes decisions based on the color of the dice.
 
 <img src="./img/screenshot.png" width="500">
 
