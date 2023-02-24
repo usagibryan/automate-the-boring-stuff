@@ -108,7 +108,7 @@ class Daryl:
     def turn(self, gameState):
         diceRollResults = zombiedice.roll() # first roll
 
-        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND LESS THAN 5 BRAINS
+        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND AT LEAST 5 BRAINS
         shotgun = 0
         brains = 0
         while diceRollResults is not None:
@@ -129,7 +129,7 @@ class Maggie:
     def turn(self, gameState):
         diceRollResults = zombiedice.roll() # first roll
 
-        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND LESS THAN 5 BRAINS
+        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND AT LEAST 5 BRAINS
         # IF YOU GET 2 SHOTGUNS AND HAVE NO BRAINS KEEP ROLLING
         shotgun = 0
         brains = 0
@@ -151,7 +151,7 @@ class Negan:
     def turn(self, gameState):
         diceRollResults = zombiedice.roll() # first roll
 
-        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND LESS THAN 6 BRAINS
+        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND AT LEAST 6 BRAINS
         # IF YOU GET 2 SHOTGUNS AND HAVE NO BRAINS KEEP ROLLING
         shotgun = 0
         brains = 0
@@ -173,7 +173,7 @@ class Carl:
     def turn(self, gameState):
         diceRollResults = zombiedice.roll() # first roll
 
-        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND LESS THAN 7 BRAINS
+        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND AT Least 7 BRAINS
         # IF YOU GET 2 SHOTGUNS AND HAVE NO BRAINS KEEP ROLLING
         shotgun = 0
         brains = 0
@@ -195,7 +195,7 @@ class Lizzie:
     def turn(self, gameState):
         diceRollResults = zombiedice.roll() # first roll
 
-        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND LESS THAN 7 BRAINS
+        # KEEP ROLLING UNTIL YOU GET 2 SHOTGUNS OR 1 SHOT GUN AND AT LEAST 6 BRAINS
         # IF YOU GET 2 SHOTGUNS AND HAVE NO BRAINS KEEP ROLLING
         # BUT IF ALL THE RED DICE HAS ALREADY BEEN ROLLED, ALWAYS KEEP GOING
         shotgun = 0
