@@ -8,14 +8,28 @@ def collatz(number):
         print(f'3 × {number} + 1 = {result}')
         return result
 
-while True:
-    try:
-        num = int(input("Enter a positive integer: "))
-        if num <= 0:
-            raise ValueError
-        break
-    except ValueError:
-        print("Invalid input! Please enter a positive integer.")
+def get_positive_integer(prompt):
+    while True:
+        try:
+            num = int(input(prompt))
+            if num <= 0:
+                raise ValueError
+            return num
+        except ValueError:
+            print("Invalid input! Please enter a positive integer.")
 
-while num != 1:
-    num = collatz(num)
+num = get_positive_integer("Enter a positive integer: ")
+while True:
+    while num != 1:
+        num = collatz(num)
+
+    print("The sequence has reached 1.")
+    choice = input("Would you like to enter another number? (y/n): ")
+    while choice.lower() not in ['y', 'n']:
+        choice = input("Invalid input! Please enter 'y' or 'n': ")
+    if choice.lower() == 'n':
+        break
+
+    num = get_positive_integer("Enter a positive integer: ")
+
+print("Goodbye!")
