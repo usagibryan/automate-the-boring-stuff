@@ -8,10 +8,9 @@ def collatz(number):
         print(f'3 × {number} + 1 = {result}')
         return result
 
-
 while True:
     try:
-        num = float(input("Enter a positive integer: "))
+        num = int(input("Enter a positive integer: "))
         if num <= 0:
             raise ValueError
         break
