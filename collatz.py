@@ -1,4 +1,5 @@
 def collatz(number):
+    '''This function performs the collatz sequence math operation'''
     if number % 2 == 0: # number is even
         result = number // 2
         print(f'{number} ÷ 2 = {result}')
@@ -9,6 +10,7 @@ def collatz(number):
         return result
 
 def get_positive_integer(prompt):
+    '''This function is called if the user wants to enter another number'''
     while True:
         try:
             num = int(input(prompt))
