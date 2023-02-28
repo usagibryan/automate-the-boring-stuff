@@ -1,11 +1,11 @@
 def collatz(number):
     if number % 2 == 0: # number is even
         result = number // 2
-        print(result)
+        print(f'{number} ÷ 2 = {result}')
         return result
     else: # number % 2 == 1 meaning number is odd
         result = 3 * number + 1
-        print(result)
+        print(f'3 × {number} + 1 = {result}')
         return result
 
 
