@@ -2,7 +2,7 @@
 
 This is my solution the practice project "Character Picture Grid" at the end of chapter 4 in [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/chapter4/) by Al Sweigart. It prints out the transposed version of the `grid` list of lists, where the rows become columns and columns become rows.
 
-```
+```Python
 grid = [['.', '.', '.', '.', '.', '.'],
 		['.', 'O', 'O', '.', '.', '.'],
 		['O', 'O', 'O', 'O', '.', '.'],
@@ -16,7 +16,7 @@ grid = [['.', '.', '.', '.', '.', '.'],
 
 The output will be:
 
-```
+```Python
 ..OO.OO..
 .OOOOOOO.
 .OOOOOOO.
